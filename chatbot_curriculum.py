@@ -8,7 +8,10 @@ from sentence_transformers import SentenceTransformer
 import google.generativeai as genai
 from dataclasses import dataclass
 from fastapi import FastAPI, HTTPException
-
+from fastapi import Request, Form
+from fastapi.responses import HTMLResponse
+from fastapi.templating import Jinja2Templates
+from fastapi.staticfiles import StaticFiles
 
 # 2 ENVIROMENT VARIABLES --------------------------------------
 
@@ -111,19 +114,23 @@ def responder_pergunta(curriculo_path, pergunta) -> str :
 #7 INSTANCIA APP ----------------------------------------------
 
 app = FastAPI()
+templates = Jinja2Templates(directory="templates")
+app.mount("/static", StaticFiles(directory="static"), name="static")
 
-@dataclass
-class Question:
-   question:str
 
-@app.get('/')
-def capa_api():
-    return 'capa do app'
+# @dataclass
+# class Question:
+#    question:str
 
-@app.post('/responder')
-def responder_api(question:Question):
-  return responder_pergunta(FILE_CV, question.question)
+@app.get("/", response_class=HTMLResponse)
+async def index(request: Request):
+    return templates.TemplateResponse("index.html", {"request": request, "mensagens": []})
 
+@app.post('/', response_class= HTMLResponse)
+async def responder_api(request: Request, question:str = Form(...)):
+    response = responder_pergunta(FILE_CV, question)
+    message = [{"usuario": question, "bot": response}]
+    return templates.TemplateResponse("index.html",{"request": request, "mensagens": message})
 
 
 # uvicorn chatbot_curriculum.py:app --reload

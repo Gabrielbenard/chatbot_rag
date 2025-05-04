@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>Chatbot Currículo</title>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+    <div class="chatbox">
+        <h1>Chatbot do Currículo</h1>
+        <form method="post" action="/">
+            <input type="text" name="question" placeholder="Digite sua pergunta..." required>
+            <button type="submit">Enviar</button>
+        </form>
+
+        <div class="mensagens">
+            {% for m in mensagens %}
+                <div class="msg-usuario"><strong>Você:</strong> {{ m.usuario }}</div>
+                <div class="msg-bot"><strong>Bot:</strong> {{ m.bot }}</div>
+            {% endfor %}
+        </div>
+    </div>
+</body>
+</html>

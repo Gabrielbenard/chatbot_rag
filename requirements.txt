@@ -1,0 +1,8 @@
+fastapi
+uvicorn
+requests
+faiss-cpu
+sentence-transformers
+python-dotenv
+pandas
+google-generativeai

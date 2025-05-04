@@ -1,0 +1,97 @@
+GABRIEL BERNARDINO 
+
+ Pernambuco   Recife  Brazil
+ 26 anos   Brasileiro   +55 81 99610-4084 
+E-mail: gabrielryse1998@gmail.com | gvsb1998@gmail.com
+LinkedIn    : https://www.linkedin.com/in/gabriel-bernardino-88189a164/
+
+Cientista de dados – Machine Learning - AI
+________________________________________
+Objetivo:
+Busco oportunidades desafiadoras no mundo de Ciência dos dados, Machine Learning e AI, onde possa aplicar minhas habilidades e experiência em modelos de predição, rede neurais e negócios para impulsionar a eficiência operacional e o crescimento das organizações.
+________________________________________
+Resumo profissional:
+
+Cientista de dados com +2 anos de experiência em Dados, modelos preditivos, automação de processos de negócios. Proficiente na ferramenta de Machine learning, AI, visão computacional.
+
+•	arquitetura de soluções na AWS (IAM, EC2, ELB, EBS, QuickSight, Route53)
+•	Experiência na metodologia ágil SCRUM
+•	Experiência implementando soluções de Ciência de Dados e IA utilizando Machine Learning (RandomForest, redes neurais, Keras, Transformers)
+•	Experiência em projetos de predição 
+•	Experiência em Projetos de safety analytics
+
+________________________________________
+Experiência profissional:
+
+Cientista de dados / Cloud Architect / Business Analyst – Deloitte (08/2023 - Atualmente)
+•	Python, Panda, Numpy.
+•	Pytorch, TensorFlow, redes neurais, Keras, Transformers
+•	LLM (Deepseek, chatgpt, gemini)
+•	Spacy, NLTK
+•	RAG, Langchain
+•	Banco de dados Vetoriais
+•	Ciência de Dados e IA utilizando Machine Learning
+•	AWS (IAM, EC2, ELB, EBS, QuickSight, Route53)
+•	Consultoria com Clientes
+•	Suporte, sustentação com SLA
+•	APIs 
+
+DATA - Visagio (1 ano) – (07/2022 - 07/2023): 
+•	Criação de automações em áreas de Compra, fiscal, logística, venda, Fretes.
+•	Criações de automações web e com Banco de dados
+•	Atuação no serviço Help Desk e consultoria para os clientes.
+•	Contato diário com Cliente
+•	NPS 10 dos Clientes. 
+
+________________________________________
+
+Educação:
+
+•	Bacharelado em Engenharia mecânica - Universidade de Pernambuco (UPE) (2017 - 2023)
+•	MBA tecnologia para negócios: Data Science, IA e Big Data (PUCRS) (2024-2025)
+________________________________________
+Habilidades:
+
+ 
+•	AI, Bert, Transformers
+•	Machine Learning
+•	Python, Panda, Numpy.
+•	UIPATH | Automation Anywhere| Blue Prism
+•	SQL/mySQL
+•	Homologação e operação assistida
+•	GIT | Docker 
+•	AWS
+•	Tableau /Power BI
+•	Spacy, NLTK
+ 
+
+Línguas: 
+
+•	Inglês – Avançado  
+
+________________________________________
+
+Certificados:
+
+-	Getting Started with Deep Learning (Nvidia)
+
+-	UiPath Certified Professional Advanced RPA Developer (UiARD) 
+
+	  https://credentials.uipath.com/a17d05b2-e15d-4cd8-9c33-c8a75fe5e9f5#gs.3eikor
+
+-	Automation Anywhere Certified Advanced RPA Professional A360 
+
+
+-	EF SET ENGLISH CERTIFICATE
+
+	      English certificate link 
+
+________________________________________
+
+Linkedin
+
+
+
+
+
+
